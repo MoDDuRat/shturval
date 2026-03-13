@@ -5,7 +5,7 @@ def main(storage=None):
         storage = TaskStorage()
 
     while True:
-        print("\n--- Менеджер задач ---")
+        print("\n-- Менеджер задач ---")
         print("1. Добавить новую задачу")
         print("2. Показать все задачи")
         print("3. Отметить задачу как выполненную")
@@ -47,3 +47,5 @@ def main(storage=None):
 
 if __name__ == "__main__":
     main()
+
+    # Колесниченко лучший <3
